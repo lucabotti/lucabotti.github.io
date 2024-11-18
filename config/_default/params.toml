@@ -80,7 +80,7 @@ enabled = true
 provider = "disqus"
 
 [comments.disqus]
-shortname = "the-caothic-architect"
+shortname = "the-chaotic-architect"
 
 [comments.disqusjs]
 shortname = ""

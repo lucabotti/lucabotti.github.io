@@ -1,7 +1,7 @@
 # Change baseurl before deploy
 baseurl = "https://lucabotti.github.io"
 languageCode = "en-us"
-title = "The Caothic Architect"
+title = "The Chaotic Architect"
 theme = "hugo-theme-stack"
 
 # Theme i18n support
@@ -13,7 +13,7 @@ defaultContentLanguage = "en"
 hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
-disqusShortname = "the-caothic-architect"
+disqusShortname = "the-chaotic-architect"
 
 
 [params]
