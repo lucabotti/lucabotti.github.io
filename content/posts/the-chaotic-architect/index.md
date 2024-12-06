@@ -1,14 +1,14 @@
 ---
 title: "The Chaotic Architect"
-slug:
+slug: the-chaotic-architect
 summary:
-date: 2024-11-19T11:04:51+01:00
-image: complex-gears.webp
+date: 2024-11-22T11:04:51+01:00
+image: chaotic-architect.png
 publishDate:
-tags: []
+tags: [software,architecture]
 series:
 toc: false
-draft: true
+draft: false
 ---
 <!--
 Checklist:
@@ -33,6 +33,8 @@ Outline:
 -->
 
 # The Chaotic Architect
+
+**Disclaimer:**_this is the original version of the LinkedIn post at https://www.linkedin.com/pulse/chaotic-architect-red-software-systems-bsuaf_
 
 ## Part 1 - Introduction
 We often think to software architecture as clear, plain vision of the components of a system or software solutions. A clear-cut, CAD like vision of a Cathedral that a team of software engineers will build with the precision of ancient craftmanship, driven by the wise suggestions of team leaders, with the cadence of a ballet orchestrated by Project Managers.
