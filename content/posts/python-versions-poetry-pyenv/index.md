@@ -1,6 +1,6 @@
 ---
 title: "Managing Python Versions in Poetry with PyEnv"
-slug: pythons-poetry-pyenv
+slug: pythons-versions-poetry-pyenv
 summary:
 date: 2024-11-18T00:29:12+01:00
 publishDate: 2023-03-24
@@ -63,7 +63,7 @@ First will create your virtual environments in the project directory, second wil
 
 After this, a **_poetry init_** will result in the following output:
 
-![poetry result](./images/2023-03-24/2023-03-24-image-01.png)
+![poetry result](poetry-results.png)
 
 This will generate the **pyproject.toml** file containing a description of the Project as defined via the input of the init command.
 
@@ -80,11 +80,11 @@ For the Linux users, Pyenv never touches the system python installation. Even wh
 
 Just for example, **_pyenv versions_** will show the currently installed (and currently used versions):
 
-![Currently installed Versions and selected version](./images/2023-03-24/2023-03-24-image-02.png)
+![Currently installed Versions and selected version](2023-03-24-image-02.png)
 
 **_pyenv local 3.10_** will install (if not already installed) a 3.10 python version and select it as the default version for the current directory.
 
-![Selected version for current directory.](./images/2023-03-24/2023-03-24-image-03.png)
+![Selected version for current directory.](2023-03-24-image-03.png)
 
 ## Combining everything
 Managing your project with poetry, allows you to set the python version for the project, but not to manage the installed python versions.
@@ -98,12 +98,12 @@ poetry env use $(which python) # set the python version to the current one
 
 The first command sets the local version to 3.10. The following one sets the environment used by poetry to the currently selected python version (3.10 via the previous command). Two caveats here: the virtual environment shall not be active, otherwise the python version set will be the virtual environment one, and the python poetry dependency (**tool.poetry.dependencies** stanza in pyproject.toml) should be already correctly set:
 
-![python = "^3.10" means 3.10 and later](./images/2023-03-24/2023-03-24-image-04.png)
+![python = "^3.10" means 3.10 and later](2023-03-24-image-04.png)
 
 
 The result of the **_poetry env use_** command will be the following, confirmed by the _**poetry env info**_ command:
 
-![Python version has been changed, confirmed via the info command. Note that the virtual environment has been recreated.](./images/2023-03-24/2023-03-24-image-05.png)
+![Python version has been changed, confirmed via the info command. Note that the virtual environment has been recreated.](2023-03-24-image-05.png)
 
 ## Finally, your IDE
 If you use an IDE (I do, **PyCharm**), you can set the interpreter to a local poetry environment already installed.
