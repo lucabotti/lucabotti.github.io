@@ -1,6 +1,6 @@
 ---
 title: "Managing Python Versions in Poetry with PyEnv"
-slug: pythons-poetry-pyenv
+slug: pythons-versions-poetry-pyenv
 summary:
 date: 2024-11-18T00:29:12+01:00
 publishDate: 2023-03-24
