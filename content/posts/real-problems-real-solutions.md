@@ -4,10 +4,7 @@ slug: real-problems-real-solutions
 summary:
 date: 2024-12-12T00:27:35+01:00
 publishDate: 2024-12-12
-tags: 
-  - python
-  - github
-  - bitbucket
+tags: [python,github,bitbucket]
 series: 
 toc: false
 draft: false
