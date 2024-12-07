@@ -1,6 +1,6 @@
 ---
 date: '2024-11-18T09:54:14+01:00'
-draft: true
+draft: false
 title: 'About'
 links:
   - title: GitHub
