@@ -2,12 +2,12 @@
 title: "Real Problems Real Solutions"
 slug: real-problems-real-solutions
 summary:
-date: 2024-12-12T00:27:35+01:00
-publishDate: 2024-12-12
+date: 2025-03-12T00:27:35+01:00
+publishDate: 
 tags: [python,github,bitbucket]
 series: 
 toc: false
-draft: false
+draft: true
 ---
 <!--
 Checklist:
@@ -46,7 +46,7 @@ The script has a set of commands, which have been defined only by the **_real pr
 
 This is the kind of value that the [Delivering Value]({{< ref "delivering-value" >}}) post was talking about - you give value to your users.
 
-In this instance, us.
+In this example, the value is for us.
 
 
 
