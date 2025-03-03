@@ -10,7 +10,7 @@ links:
   - title: LinkedIn
     description: Business Social Network
     website: https://www.linkedin.com/in/lucabotti
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+    #image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 menu:
   main:
     weight: 2
